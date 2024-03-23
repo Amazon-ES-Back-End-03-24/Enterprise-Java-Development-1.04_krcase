@@ -2,6 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
+    //lab 1 task 1 and 2
+
     public static void main(String[] args) {
 
         int a = 5;
