@@ -7,6 +7,7 @@ public class Main {
         int a = 5;
         int b = 6;
         int c = 1;
+
         int[] taskOne = {a, b, c};
 
         for(int i = 0; i < taskOne.length; i++) {
@@ -21,13 +22,12 @@ public class Main {
 
         int taskOneMin = taskOne[0];
         int taskTwo = taskOne[0+1];
-        int taskOneMax = taskOne[taskOne.length - 1];
-        int diff = taskOneMax - taskOneMin;{
+        int taskOneMax = (taskOne.length - 1);
+        int diff = taskOneMax - taskOneMin;
 
             System.out.println("Difference between min and max is " + diff);
             System.out.println("the smallest number in the array is " + taskOneMin);
             System.out.println("the second smallest number in the array is " + taskTwo);
-        }
 
 
         //task 3
@@ -38,8 +38,7 @@ public class Main {
         float outside = (insideY * insideY);
         float firstX = (x*x);
         float result = (firstX + outside);
-        {
+
             System.out.println("the results of task 3 is " + result);
-        }
     }
 }
