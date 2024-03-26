@@ -9,7 +9,7 @@ public class Main {
 
         int a = 7;
         int b = 9;
-        int c = 1;
+        int c = 6;
 
         int[] taskOne = {a, b, c};
 
@@ -25,11 +25,12 @@ public class Main {
 
         int taskOneMin = taskOne[0];
         int taskTwo = taskOne[0+1];
-        int taskOneMax = (taskOne.length - 1);
-        int diff = taskOneMax - taskOneMin;
+        int taskOneMax = taskOne[taskOne.length-1];
+        int diff = (taskOneMax - taskOneMin);
 
             System.out.println("Difference between min and max is " + diff);
             System.out.println("the smallest number in the array is " + taskOneMin);
+            System.out.println("the largest number in the array is " + taskOneMax);
             System.out.println("the second smallest number in the array is " + taskTwo);
 
 
