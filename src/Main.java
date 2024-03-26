@@ -3,11 +3,12 @@
 public class Main {
 
     //lab 1 task 1 and 2
+    //changing variables just to create pull request
 
     public static void main(String[] args) {
 
-        int a = 5;
-        int b = 6;
+        int a = 7;
+        int b = 9;
         int c = 1;
 
         int[] taskOne = {a, b, c};
@@ -34,7 +35,7 @@ public class Main {
 
         //task 3
         float x = 5;
-        float y = 6;
+        float y = 9;
         float inside = ( 4*y/5);
         float insideY = (inside - x);
         float outside = (insideY * insideY);
